@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: capitalize;
+	scroll-behavior: smooth;
+}
+
+/*about style*/
+#about,#services{
+	width: 100%;
+	min-height: 500px;
+
+}
+#about .abt-head{
+	font-family: 'Yuji Hentaigana Akari', cursive;
+	font-size: 45px;
+}
+#about .abt-para{
+	
+	line-height: 30px;
+	text-align: justify;
+
+}
+/*about end*/
+
+/*services*/
+#services{
+	background: #fbf7f7;
+	width: 100%;
+	height: 900px;
+}
+#services .srv-head{
+	font-family: 'Yuji Hentaigana Akari', cursive;
+	font-size: 45px;
+
+}
+/*services end*/
+
+/*contact*/
+#contact{
+	width: 100%;
+	height: 500px;
+}
+#contact .cnt-head{
+	font-family: 'Yuji Hentaigana Akari', cursive;
+	font-size: 45px;
+}
+/*contact ends*/
+ 
+/*footer*/
+#footer{
+	width: 100%;
+	height: 300px;
+	background: black;
+}
+.footer-abt{
+	margin-top: 30px;
+	color: white;
+	font-family: 'Yuji Hentaigana Akari', cursive;
+}
+.footer-para{
+	color: white;
+	margin-top: 10px;
+}
+.footer-links{
+	
+	color: white;
+	font-family: 'Yuji Hentaigana Akari', cursive;
+}
+#footer .footer-quicklinks{
+	list-style-type: none;
+}
+#footer .footer-quicklinks li a{
+	color: white;
+	text-decoration: none;
+	line-height: 28px;
+}
+.footer-add{
+	
+	color: white;
+	font-family: 'Yuji Hentaigana Akari', cursive;
+}
+.footer-addlinks{
+	list-style-type: none;
+}
+.footer-addlinks li{
+	text-decoration: none;
+	color: white;
+	line-height: 35px;
+}
+.footer-addlinks li a{
+	text-decoration: none;
+	color: white;
+	line-height: 35px;
+}
+/*footer end*/
